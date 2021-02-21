@@ -1,6 +1,6 @@
 {
   "name": "@mdekstrand/ant-runner",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Installer and runner for Ant",
   "main": "index.js",
   "scripts": {
