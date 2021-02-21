@@ -1,0 +1,31 @@
+{
+  "name": "@mdekstrand/ant-runner",
+  "version": "1.0.0",
+  "description": "Installer and runner for Ant",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "clean": "gulp clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdekstrand/node-ant-runner.git"
+  },
+  "author": "Michael Ekstrand",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mdekstrand/node-ant-runner/issues"
+  },
+  "homepage": "https://github.com/mdekstrand/node-ant-runner#readme",
+  "devDependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-gunzip": "^1.1.0",
+    "gulp-ignore": "^3.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-untar": "0.0.8",
+    "node-fetch": "^2.6.1",
+    "pump": "^3.0.0"
+  }
+}
